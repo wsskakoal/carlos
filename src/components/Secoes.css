@@ -1,0 +1,33 @@
+/* 
+.secoes{
+	margin-bottom: 30px;
+	overflow-x: auto;
+}
+
+.secoes h2{
+	margin: 10px 10px 10px 30px;	
+}
+
+.secoes--listarea{
+	overflow-x: hidden;
+}
+
+.secoes--list{
+	width: 999999999999px;
+}
+
+.secoes--item{
+	display:inline-block;
+	width : 150px;
+	cursor: pointer;
+}
+.secoes--item img{
+	transform: scale(0.9);
+	width : 100%;
+	transition: all ease 0.1s;
+}
+
+.secoes--item img:hover{
+	transform: scale(1);
+	width : 100%;
+} */
