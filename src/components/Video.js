@@ -1,12 +1,12 @@
-import React from 'react';import ReactPlayer from 'react-player/lazy'
+// import React from 'react';import ReactPlayer from 'react-player/lazy'
 
-const TelaVideo = () => {
-	return (
-		<section >
-					<ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+// const TelaVideo = () => {
+// 	return (
+// 		<section >
+// 					<ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
 
-		</section>
-	);
-};
+// 		</section>
+// 	);
+// };
 
-export default TelaVideo
+// export default TelaVideo

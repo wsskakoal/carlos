@@ -1,26 +1,28 @@
 import './App.css';
-import React from 'react'
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-// import Navbar from './components/Navbar';
-// import Menu from './components/Menu';
-// import Conteudo from './components/Conteudo';
-// import Secoes from './components/Secoes';
-// import Destaque from './components/Destaque';
-import Logo from './components/Logo';
-import TelaVideo from './components/Video';
-import { Botao } from './components/Button';
+import React, { Component } from 'react'
+import { LikeButton } from './components/Like-Button';
+import SearchButton from './components/Search-Button';
 
 
-function App() {
 
-	return (
-		<div className="App">
-			<div className="logo"><section><Logo></Logo></section></div>
-			<TelaVideo></TelaVideo>
-<Botao></Botao>
-		</div>
+class App extends Component {
+	constructor() {
+		super();
+		this.state = {
+			nome: "Wyllian",
+		}
+	};
 
-	);
-}
+	render() {
+		return (
+			<div className="App">
+				<div onClick={() => { this.setState({ nome: "Carlos"}) }}> {this.state.nome} </div>
+				<LikeButton></LikeButton>
+				<SearchButton></SearchButton>
+			</div>
+		)
+	};
+};
+
 
 export default App;
